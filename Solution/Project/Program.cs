@@ -10,7 +10,9 @@ namespace Project
 	{
 		static void Main( string[] args )
 		{
-			Console.WriteLine( "\n\n\nHello Git ! \n\n\n" );
+			Console.WriteLine( "\n\n\nHello Git ! \n\n" );
+			Console.WriteLine( "I willing to learn it." );
+			Console.WriteLine( "\n\n\n" );
 		}
 	}
 }
