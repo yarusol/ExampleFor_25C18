@@ -16,17 +16,26 @@ namespace Project
 
 			Console.WriteLine( "Some useful features will be after this. \n\n\n" );
 
-			double val;
+			double dVal;
 			string input;
 			do
 			{
 				Console.WriteLine( "Enter double value, please : " );
 				input = Console.ReadLine();
-			} while( ! Double.TryParse( input, out val ) );
-			Console.WriteLine( "\nYou've entered {0}. It is good double.\nThank you! ", val );
+			} while( ! Double.TryParse( input, out dVal ) );
+			Console.WriteLine( "\nYou've entered {0}. It is good double.\nThank you! ", dVal );
 
 			Console.WriteLine( "\n\n\n" );
 
+			int iVal;
+			do
+			{
+				Console.WriteLine( "Enter integer value, please : " );
+				input = Console.ReadLine();
+			} while ( !Int32.TryParse( input, out iVal ) );
+			Console.WriteLine( "\nYou've entered {0}. It is good integer.\nThank you! ", iVal );
+
+			Console.WriteLine( "\n\n\n" );
 		}
 	}
 }
